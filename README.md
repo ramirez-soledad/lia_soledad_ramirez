@@ -9,14 +9,14 @@
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            background: linear-gradient(135deg, #fdf2f8 0%, #f5f3ff 100%);
+            background: linear-gradient(135deg, #f0f9ff 0%, #f5f3ff 100%);
             min-height: 100vh;
         }
         .glass-card {
             background: rgba(255, 255, 255, 0.8);
             backdrop-filter: blur(12px);
             border: 1px solid rgba(255, 255, 255, 0.6);
-            box-shadow: 0 4px 20px -2px rgba(236, 72, 153, 0.05);
+            box-shadow: 0 4px 20px -2px rgba(30, 64, 175, 0.05);
         }
         .link-button {
             transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -25,18 +25,18 @@
         .link-button:hover {
             transform: scale(1.02);
             background: #ffffff;
-            border-color: #d8b4fe;
-            box-shadow: 0 10px 25px -5px rgba(139, 92, 246, 0.15);
+            border-color: #93c5fd;
+            box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.15);
         }
         .gpt-badge {
-            background: linear-gradient(90deg, #ec4899, #8b5cf6);
+            background: linear-gradient(90deg, #2563eb, #8b5cf6);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             font-weight: 700;
         }
         .profile-ring {
             padding: 3px;
-            background: linear-gradient(45deg, #f472b6, #a78bfa);
+            background: linear-gradient(45deg, #3b82f6, #a78bfa);
             border-radius: 9999px;
         }
     </style>
@@ -49,7 +49,7 @@
         <!-- Profile Section -->
         <div class="profile-ring mb-6 shadow-xl">
             <div class="bg-white rounded-full p-1">
-                <img src="https://api.dicebear.com/7.x/micah/svg?seed=creative&backgroundColor=f5f3ff" alt="Avatar" class="w-24 h-24 rounded-full">
+                <img src="https://api.dicebear.com/7.x/micah/svg?seed=creative&backgroundColor=f0f9ff" alt="Avatar" class="w-24 h-24 rounded-full">
             </div>
         </div>
 
@@ -62,11 +62,11 @@
         <div class="w-full space-y-4">
             
             <!-- Redes Principales -->
-            <h2 class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 ml-2">Conecta conmigo</h2>
+            <h2 class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 ml-2">Contacto</h2>
             
             <a href="#" class="link-button glass-card w-full py-4 px-6 rounded-2xl flex items-center group">
-                <div class="bg-pink-50 p-2 rounded-lg mr-4 group-hover:bg-pink-100 transition-colors">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                <div class="bg-blue-50 p-2 rounded-lg mr-4 group-hover:bg-blue-100 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
                 </div>
                 <span class="font-semibold text-gray-700">Instagram</span>
             </a>
@@ -103,9 +103,9 @@
                         </div>
                     </a>
 
-                    <a href="#" class="link-button glass-card w-full py-4 px-6 rounded-2xl flex items-center group border-l-4 border-l-pink-400">
-                        <div class="bg-pink-50 p-2 rounded-lg mr-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    <a href="#" class="link-button glass-card w-full py-4 px-6 rounded-2xl flex items-center group border-l-4 border-l-blue-400">
+                        <div class="bg-blue-50 p-2 rounded-lg mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
                         </div>
                         <div class="flex flex-col text-left">
                             <span class="font-bold text-gray-800">n8n Master</span>
@@ -121,7 +121,7 @@
         <!-- Footer -->
         <footer class="mt-16 flex flex-col items-center">
             <div class="flex space-x-5 mb-6 text-gray-400">
-                <a href="mailto:tuemail@ejemplo.com" class="hover:text-purple-600 transition-colors">
+                <a href="mailto:tuemail@ejemplo.com" class="hover:text-blue-600 transition-colors">
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
                 </a>
             </div>
